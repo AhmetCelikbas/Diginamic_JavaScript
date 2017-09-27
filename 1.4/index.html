@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.4 : Les appels réseaux</title>
+</head>
+<body>
+
+    <form class="form-horizontal" action="javascript:void(0);" onsubmit="return loadGithubUser();">
+        <input id="githubUsername" type="text" placeholder="GitHub Username" value="AhmetCelikbas"/>
+        <button type="submit">Get GitHub Data</button>
+    </form>
+
+
+    <div id="githubData"></div>
+
+    <script type="text/javascript" src="js/services/data.service.js"></script>
+    <script type="text/javascript" src="js/services/github.service.js"></script>
+    <script type="text/javascript" src="js/controllers/github.controller.js"></script>
+
+</body>
+</html>
